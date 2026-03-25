@@ -10,7 +10,7 @@ public class Main {
 
         ExecutorService executor = Executors.newFixedThreadPool(50);
 
-        for (int i = 1; i <= 3; i++) {
+        for (int i = 1; i <= 50; i++) {
             int userId = i;
 
             executor.submit(() -> {
